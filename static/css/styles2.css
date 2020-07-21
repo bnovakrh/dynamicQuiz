@@ -13,8 +13,6 @@ body {
     overflow: auto;
 }
 
-#bn-header {
-    display: block;
 }
 #bn-logo {
     background-image: url(/static/images/Logo-RedHat-A-Reverse-RGB.png);
@@ -24,12 +22,12 @@ body {
     float: left;
     display: block;
     width: 20%;
-    height: 70px;
+    padding-left: 2%;
 }
-#bn-header-content {
-    background-color: #ffffff;
-    display: block;
+
+#header nav{
     float: right;
+    background-color: #000000;
 }
 
 

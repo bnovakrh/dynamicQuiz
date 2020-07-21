@@ -9,6 +9,19 @@ body {
     top: 0
 }
 
+#bn-header {
+    display: block;
+    background-color: #000000;
+}
+#bn-logo {
+    background-image: url(/static/images/Logo-RedHat-A-Reverse-Pantone.jpg);
+}
+
+
+
+
+
+
 body,
 nav {
     font-family: "Trebuchet MS", Helvetica, sans-serif;

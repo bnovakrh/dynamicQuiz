@@ -39,6 +39,11 @@ header nav{
     height: 75px;
 }
 
+#bn-wrapper h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
 header nav a {
     color: #ffffff;
 }

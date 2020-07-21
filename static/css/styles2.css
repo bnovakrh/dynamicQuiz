@@ -6,7 +6,7 @@ body {
     padding: 0;
     position: absolute;
     left: 0;
-    top: 0
+    top: 0;
     font-family: 'Red Hat Display', sans-serif;
 }
 #bn-main-wrapper {
@@ -80,7 +80,7 @@ body a {
 }
 
 .btn {
-    font-size: 12px
+    
 }
 
 .table {
@@ -153,13 +153,6 @@ a .navbar-default {
     background-color: #000084
 }
 
-p,
-a,
-li,
-label {
-    font-size: 12px
-}
-
 form label {
     display: inline-block;
     float: left
@@ -190,7 +183,6 @@ td {
 }
 
 .error {
-    font-size: 12px;
     color: red
 }
 

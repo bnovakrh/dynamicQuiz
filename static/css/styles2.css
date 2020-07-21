@@ -14,7 +14,7 @@ body {
 }
 
 }
-#bn-logo {
+header #bn-logo {
     background-image: url(/static/images/Logo-RedHat-A-Reverse-RGB.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -27,7 +27,7 @@ body {
     padding-top: 15px;
 }
 
-#header nav{
+header nav{
     float: right;
     background-color: #000000;
     width: 76%;
@@ -36,13 +36,7 @@ body {
     padding-top: 15px;
 }
 
-
-
-
-
-
-body,
-nav {
+body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     background-color: #ffffff;
 }

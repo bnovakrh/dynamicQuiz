@@ -6,6 +6,7 @@ $gray: #f8f8f8;
 $green: #1f6300;
 $red: red;
 $white: #ffffff;
+$black: #000000;
 
 html,
 body {
@@ -21,8 +22,8 @@ body {
 body,
 nav {
   font-family: $body-font;
-  color: $$white;
-  background-color: $gray;
+  color: $black;
+  background-color: $white;
 }
 
 body {

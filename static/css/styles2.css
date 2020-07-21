@@ -23,11 +23,16 @@ body {
     display: block;
     width: 20%;
     padding-left: 2%;
+    padding-bottom: 2%;
+    padding-top: 15px;
 }
 
 #header nav{
     float: right;
     background-color: #000000;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-top: 15px;
 }
 
 

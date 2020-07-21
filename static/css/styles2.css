@@ -19,11 +19,11 @@ body {
 #bn-logo {
     background-image: url(/static/images/Logo-RedHat-A-Reverse-RGB.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-color: #000000;
     float: left;
     display: block;
-    width: 296PX;
+    width: 20%;
     height: 70px;
 }
 #bn-header-content {

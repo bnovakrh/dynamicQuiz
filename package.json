@@ -1,7 +1,7 @@
 {
   "name": "csaa-tech-talk",
   "version": "1.0.0",
-  "description": "nodeJS server for chemistry quiz",
+  "description": "nodeJS server for tech talk",
   "main": "app.js",
   "dependencies": {
     "body-parser": "^1.14.1",

@@ -71,7 +71,6 @@ th {
 
 h1 {
     font-weight: 600;
-    text-align: center
 }
 
 h3 {
@@ -95,7 +94,7 @@ h3 {
 }
 
 #tenScores {
-    text-align: center
+    text-align: left
 }
 
 nav a {

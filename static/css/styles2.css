@@ -21,7 +21,6 @@ header #bn-logo {
     float: left;
     display: block;
     width: 20%;
-    padding-left: 2%;
     padding-bottom: 15px;
     padding-top: 15px;
 }
@@ -30,7 +29,7 @@ header nav{
     float: right;
     background-color: #000000;
     text-align: right;
-    width: 76%;
+    width: 78%;
     padding-right: 2%;
     padding-bottom: 15px;
     padding-top: 15px;

@@ -11,20 +11,21 @@ body {
 
 #bn-header {
     display: block;
-    background-color: #000000;
-    position: relative;
 }
 #bn-logo {
     background-image: url(/static/images/Logo-RedHat-A-Reverse-RGB.png);
-    background-repeat: no-repeat ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000000;
+    float: left;
     display: block;
     width: 296PX;
     height: 70px;
-    position: relative;
-    background-size: cover;
 }
 #bn-header-content {
+    background-color: #ffffff;
     display: block;
+    float: right;
 }
 
 

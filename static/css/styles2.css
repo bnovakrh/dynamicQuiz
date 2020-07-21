@@ -69,21 +69,8 @@ th {
     text-align: left
 }
 
-h1 {
-    font-weight: 600;
-}
-
-h3 {
-    font-weight: 600
-}
-
 #ajaxloading {
-    font-weight: 300;
     margin-bottom: 20px
-}
-
-#question {
-    font-weight: 500
 }
 
 #nameFormWarning,
@@ -141,7 +128,6 @@ form label {
 
 label#ansLabels {
     float: inherit;
-    font-weight: 300
 }
 
 table {
@@ -162,7 +148,6 @@ td {
 }
 
 .notice {
-    font-size: 16px;
     color: #1f6300
 }
 
@@ -185,8 +170,6 @@ td {
 }
 
 .answerLabel {
-    font-size: 18px;
-    font-weight: 500;
     padding-right: 10px
 }
 
@@ -210,8 +193,7 @@ td {
 }
 
 #description {
-    text-align: center;
-    font-weight: 300
+    text-align: left;
 }
 
 #reset_quiz {

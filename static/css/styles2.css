@@ -60,11 +60,14 @@ body a {
 }
 
 #nameForm {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color:#dddddd ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:#dddddd;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #cfcece;
 }
 
 #home,

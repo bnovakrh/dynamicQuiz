@@ -1,5 +1,5 @@
 {
-  "name": "chemistryquiz",
+  "name": "csaa-tech-talk",
   "version": "1.0.0",
   "description": "nodeJS server for chemistry quiz",
   "main": "app.js",
@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/gzgracez/dynamicQuiz.git"
+    "url": "git@github.com:bnovakrh/dynamicQuiz.git"
   },
-  "author": "Grace Zhang",
-  "license": "ISC",
+  "author": "Bill Novak",
+  "license": "GNU",
   "bugs": {
-    "url": "https://github.com/gzgracez/dynamicQuiz/issues"
+    "url": "https://github.com/bnovakrh/dynamicQuiz.git"
   },
-  "homepage": "https://github.com/gzgracez/dynamicQuiz#readme"
+  "homepage": "https://github.com/bnovakrh/dynamicQuiz.git"
 }

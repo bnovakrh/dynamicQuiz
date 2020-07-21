@@ -2,23 +2,26 @@ $body-font: "Trebuchet MS", Helvetica, sans-serif;
 $navy: #000084;
 $lighterNavy: #0000d3;
 $yellow: #dcdd63;
-$gray: #F8F8F8;
+$gray: #f8f8f8;
 $green: #1f6300;
 $red: red;
+$white: #ffffff;
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
   position: absolute;
   left: 0;
-  top:0;
+  top: 0;
 }
 
-body, nav {
+body,
+nav {
   font-family: $body-font;
-  color: $navy;
+  color: $$white;
   background-color: $gray;
 }
 
@@ -28,20 +31,23 @@ body {
   }
 }
 
-.nameAlert{
+.nameAlert {
   font-size: 16px;
   text-decoration: none;
 }
 
 .alert {
-   display: inline-block;    
+  display: inline-block;
 }
 
 #nameForm {
   margin-top: 20px;
 }
 
-#home, #backHome, #nextQuestion, #previousQuestion {
+#home,
+#backHome,
+#nextQuestion,
+#previousQuestion {
   text-decoration: none;
   font-size: 16px;
 }
@@ -50,9 +56,20 @@ body {
   font-size: 16px;
 }
 
-.table { border: 1px solid #2980B9; }
-.table thead > tr > th { border-bottom: none; }
-.table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td { border: 1px solid #000000; }
+.table {
+  border: 1px solid #2980b9;
+}
+.table thead > tr > th {
+  border-bottom: none;
+}
+.table thead > tr > th,
+.table tbody > tr > th,
+.table tfoot > tr > th,
+.table thead > tr > td,
+.table tbody > tr > td,
+.table tfoot > tr > td {
+  border: 1px solid #000000;
+}
 
 th {
   text-align: center;
@@ -62,7 +79,7 @@ th {
   text-align: left;
 }
 
-h1{
+h1 {
   font-weight: 600;
   text-align: center;
 }
@@ -80,7 +97,9 @@ h3 {
   font-weight: 500;
 }
 
-#nameFormWarning, #answerWarning, #placeholderWarning {
+#nameFormWarning,
+#answerWarning,
+#placeholderWarning {
   font-weight: 300;
   color: $red;
 }
@@ -92,35 +111,42 @@ h3 {
 nav {
   a {
     text-decoration: none;
-    color: $navy;
+    color: $white;
   }
 }
 
 a {
   color: $lighterNavy;
-  &:hover{
-    color: #00B7FF;
+  &:hover {
+    color: #00b7ff;
   }
-  .cNavbar{
-    color: $navy;
+  .cNavbar {
+    color: $white;
   }
-  .navbar-brand{
-    color: $navy;
+  .navbar-brand {
+    color: $white;
   }
-  #navbar, .navbar-nav, .nav, .icon-bar, .navbar-default{
-    color: $navy;
-    background-color: $navy;
+  #navbar,
+  .navbar-nav,
+  .nav,
+  .icon-bar,
+  .navbar-default {
+    color: $white;
+    background-color: $white;
   }
 }
 
-p, a, li, label{
+p,
+a,
+li,
+label {
   font-size: 24px;
 }
 
-form{
-  label{
+form {
+  label {
     display: inline-block;
-    float:left;
+    float: left;
   }
 }
 
@@ -129,34 +155,34 @@ label#ansLabels {
   font-weight: 300;
 }
 
-table,{
+table {
   border: 2px solid black;
   text-align: center;
   font-size: 20px;
 }
 
-tr{
-  padding: 10px; 
-  border:2px solid black;
+tr {
+  padding: 10px;
+  border: 2px solid black;
 }
 
-td{
- padding-left: 10px;
- padding-right: 10px;
- border:2px solid black;
+td {
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid black;
 }
 
-.notice{
+.notice {
   font-size: 16px;
   color: $green;
 }
 
-.error{
+.error {
   font-size: 18px;
   color: $red;
 }
 
-.bodyText{
+.bodyText {
   padding-top: 70px;
   height: 100%;
 }
@@ -165,17 +191,17 @@ td{
   height: 80%;
 }
 
-.icon-bar{
-  background-color: $navy;
+.icon-bar {
+  background-color: $white;
 }
 
 .answerLabel {
   font-size: 18px;
   font-weight: 500;
-  padding-right: 10px; 
+  padding-right: 10px;
 }
 
-.editanswers{
+.editanswers {
   width: 94%;
   margin-left: 5px;
   margin-bottom: 5px;
@@ -194,7 +220,7 @@ td{
   margin-bottom: 5px;
 }
 
-#description{
+#description {
   text-align: center;
   font-weight: 300;
 }
@@ -210,14 +236,14 @@ td{
 
 #revert_quiz {
   color: white;
-  background: #0099FF;
+  background: #0099ff;
 }
 
 .customNotifications {
   position: fixed;
   right: 0px;
   width: 50%;
-  top: 5%; 
+  top: 5%;
   div {
     margin-bottom: 5px;
     margin-right: 5%;

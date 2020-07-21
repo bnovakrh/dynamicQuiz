@@ -365,7 +365,6 @@ function nameForm(){
     $('#nameFormWarning').hide();
     $('#nameForm').hide();
     $('#welcome').text("Welcome " + name + "!");
-    $('#welcome').prepend('<a href="/"><img src="static/HomeIcon.png" width="38" height="38" id="homeImg" alt=""></a>');
     selectedQuiz = ids[titles.indexOf($('#titlesDropdown option:selected').text())];
     var selectedTitle = $('#titlesDropdown option:selected').text();
     $('#title').text(selectedTitle);

@@ -16,9 +16,9 @@ body {
 header #bn-logo {
     background-image: url(/static/images/Logo-RedHat-A-Reverse-RGB.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position-x: 15px;
-    background-position-y: 4px;
+    background-size: 250px;
+    background-position-x: 10px;
+    background-position-y: 10px;
     background-color: #000000;
     float: left;
     display: block;
@@ -33,7 +33,7 @@ header nav{
     width: 78%;
     padding-right: 2%;
     padding-bottom: 15px;
-    padding-top: 15px;
+    padding-top: 28px;
     color: #ffffff;
     height: 75px;
 }

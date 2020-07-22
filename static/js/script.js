@@ -470,8 +470,8 @@ function loadQuiz(target){
       quizLength = quiz["questions"].length;
       $('#nextQuestion').show();
       $('#answerChoices').show();
-      $('#description').text(quiz["description"]);
-      $('#description').show();
+      //$('#description').text(quiz["description"]);
+      //$('#description').show();
       nextQuestion();
     }
   })

@@ -49,6 +49,7 @@ header nav a {
 }
 
 #bn-footer {
+   text-align: center;
     color: #ffffff;
     position: absolute;
     bottom: 0;

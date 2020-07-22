@@ -86,221 +86,219 @@ h2#welcome {
   text-align: right;
   color: green;
   font-size: 36px;
+}
 
-  #questionNumber {
-    color: green;
-    font-weight: 600;
-  }
+h3#questionNumber {
+  color: green;
+}
 
-  body {
-    background-color: #ffffff;
-  }
+body {
+  background-color: #ffffff;
+}
 
-  body a {
-    text-decoration: underline;
-  }
+body a {
+  text-decoration: underline;
+}
 
-  .nameAlert {
-    text-decoration: none;
-  }
+.nameAlert {
+  text-decoration: none;
+}
 
-  .alert {
-    display: inline-block;
-  }
+.alert {
+  display: inline-block;
+}
 
-  #nameForm {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #dddddd;
-    border-radius: 15px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #cfcece;
-  }
+#nameForm {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #dddddd;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cfcece;
+}
 
-  #home,
-  #backHome,
-  #nextQuestion,
-  #previousQuestion {
-    text-decoration: none;
-  }
+#home,
+#backHome,
+#nextQuestion,
+#previousQuestion {
+  text-decoration: none;
+}
 
-  .btn {}
+.table {
+  border: 1px solid #2980b9;
+}
 
-  .table {
-    border: 1px solid #2980b9;
-  }
+.table thead>tr>th {
+  border-bottom: none;
+}
 
-  .table thead>tr>th {
-    border-bottom: none;
-  }
+.table thead>tr>th,
+.table tbody>tr>th,
+.table tfoot>tr>th,
+.table thead>tr>td,
+.table tbody>tr>td,
+.table tfoot>tr>td {
+  border: 1px solid #000000;
+}
 
-  .table thead>tr>th,
-  .table tbody>tr>th,
-  .table tfoot>tr>th,
-  .table thead>tr>td,
-  .table tbody>tr>td,
-  .table tfoot>tr>td {
-    border: 1px solid #000000;
-  }
+th {
+  text-align: center;
+}
 
-  th {
-    text-align: center;
-  }
+.questionNum {
+  text-align: left;
+}
 
-  .questionNum {
-    text-align: left;
-  }
+#ajaxloading {
+  margin-bottom: 20px;
+}
 
-  #ajaxloading {
-    margin-bottom: 20px;
-  }
+#nameFormWarning,
+#answerWarning,
+#placeholderWarning {
+  font-weight: 300;
+  color: red;
+}
 
-  #nameFormWarning,
-  #answerWarning,
-  #placeholderWarning {
-    font-weight: 300;
-    color: red;
-  }
+#tenScores {
+  text-align: left;
+}
 
-  #tenScores {
-    text-align: left;
-  }
+nav a {
+  text-decoration: none;
+  color: #000084;
+}
 
-  nav a {
-    text-decoration: none;
-    color: #000084;
-  }
+a {
+  color: green;
+}
 
-  a {
-    color: green;
-  }
+a:hover {
+  color: #00b7ff;
+  text-decoration: underline;
+}
 
-  a:hover {
-    color: #00b7ff;
-    text-decoration: underline;
-  }
+a .cNavbar {
+  color: #000084;
+}
 
-  a .cNavbar {
-    color: #000084;
-  }
+a .navbar-brand {
+  color: #000084;
+}
 
-  a .navbar-brand {
-    color: #000084;
-  }
+a #navbar,
+a .navbar-nav,
+a .nav,
+a .icon-bar,
+a .navbar-default {
+  color: #000084;
+  background-color: #000084;
+}
 
-  a #navbar,
-  a .navbar-nav,
-  a .nav,
-  a .icon-bar,
-  a .navbar-default {
-    color: #000084;
-    background-color: #000084;
-  }
+form label {
+  display: inline-block;
+  float: left;
+}
 
-  form label {
-    display: inline-block;
-    float: left;
-  }
+label#ansLabels {
+  float: inherit;
+}
 
-  label#ansLabels {
-    float: inherit;
-  }
+table {
+  border: 2px solid black;
+  text-align: center;
+}
 
-  table {
-    border: 2px solid black;
-    text-align: center;
-  }
+tr {
+  padding: 10px;
+  border: 2px solid black;
+}
 
-  tr {
-    padding: 10px;
-    border: 2px solid black;
-  }
+td {
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid black;
+}
 
-  td {
-    padding-left: 10px;
-    padding-right: 10px;
-    border: 2px solid black;
-  }
+.notice {
+  color: #1f6300;
+}
 
-  .notice {
-    color: #1f6300;
-  }
+.error {
+  color: red;
+}
 
-  .error {
-    color: red;
-  }
+.bodyText {
+  padding-top: 70px;
+  height: 100%;
+}
 
-  .bodyText {
-    padding-top: 70px;
-    height: 100%;
-  }
+.container {
+  height: 80% !important;
+  width: 100% !important;
+}
 
-  .container {
-    height: 80% !important;
-    width: 100% !important;
-  }
+.icon-bar {
+  background-color: #000084;
+}
 
-  .icon-bar {
-    background-color: #000084;
-  }
+.answerLabel {
+  padding-right: 10px;
+}
 
-  .answerLabel {
-    padding-right: 10px;
-  }
+.editanswers {
+  width: 94%;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  display: inline;
+}
 
-  .editanswers {
-    width: 94%;
-    margin-left: 5px;
-    margin-bottom: 5px;
-    display: inline;
-  }
+.editQuizAddAns {
+  margin-right: 5px;
+}
 
-  .editQuizAddAns {
-    margin-right: 5px;
-  }
+.removeQuestion {
+  margin-left: 5px;
+}
 
-  .removeQuestion {
-    margin-left: 5px;
-  }
+.btn {
+  margin-bottom: 5px;
+}
 
-  .btn {
-    margin-bottom: 5px;
-  }
+#description {
+  text-align: left;
+}
 
-  #description {
-    text-align: left;
-  }
+#reset_quiz {
+  color: white;
+  background: #006666;
+}
 
-  #reset_quiz {
-    color: white;
-    background: #006666;
-  }
+#revert_quiz {
+  color: white;
+  background: #0099ff;
+}
 
-  #revert_quiz {
-    color: white;
-    background: #0099ff;
-  }
+.customNotifications {
+  position: fixed;
+  right: 0px;
+  width: 50%;
+  top: 5%;
+}
 
-  .customNotifications {
-    position: fixed;
-    right: 0px;
-    width: 50%;
-    top: 5%;
-  }
+.customNotifications div {
+  margin-bottom: 5px;
+  margin-right: 5%;
+  float: right;
+}
 
-  .customNotifications div {
-    margin-bottom: 5px;
-    margin-right: 5%;
-    float: right;
-  }
+#homeImg {
+  display: inline;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
 
-  #homeImg {
-    display: inline;
-    margin-bottom: 10px;
-    margin-right: 5px;
-  }
-
-  /*# sourceMappingURL=styles2.css.map */
+/*# sourceMappingURL=styles2.css.map */

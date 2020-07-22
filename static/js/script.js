@@ -1134,7 +1134,7 @@ function generateQA (){
   for (var z = 0; z < quiz["questions"][currentQuestion]["meta_tags"].length; z++) {
     tempTags+=quiz["questions"][currentQuestion]["meta_tags"][z] + ", ";
   }
-  $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",
+  /*$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",
   {
     tags: tempTags,
     tagmode: "any",
@@ -1147,7 +1147,7 @@ function generateQA (){
       $( "#images" ).hide().fadeIn("slow");
       if ( i == 0 ) return false;
     });
-  });
+  });*/
   if (currentQuestion === 0) {
     $('#previousQuestion').hide();
   }

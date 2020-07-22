@@ -79,6 +79,11 @@ header nav a {
   background-color: #000000;
 }
 
+#questionNumber {
+  color: green;
+  font-weight: 600;
+}
+
 body {
   background-color: #ffffff;
 }

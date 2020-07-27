@@ -34,7 +34,7 @@
         <p class="nameAlert"><span>Placeholder Success!&nbsp;</span><a href="#" class="close nameAlert"
             data-hide="alert">&times;</a></p>
       </div>
-      <form id="nameForm" role="form">
+      <form id="nameForm" role="form" action="post">
         <div class="form-group">
           <label for="name">Email Address:</label>
           <input type="email" id="firstName" name="nameValue" placeholder="name@email.com" class="form-control" required><br>
@@ -44,7 +44,7 @@
             <% } %>
           </select>
           <br>
-          <input type="submit" class="btn btn-primary" class="form-control"  id="start_quiz" value="Start Quiz">
+          <input class="btn btn-primary" class="form-control" type="submit" id="start_quiz" value="Start Quiz">
           <input class="btn btn-success" class="form-control" type="submit" id="create_quiz" value="Create Quiz">
           <input class="btn btn-warning" class="form-control" type="submit" id="update_quiz" value="Update Quiz">
           <input class="btn btn-danger" class="form-control" type="submit" id="delete_quiz" value="Delete Quiz">

@@ -37,7 +37,7 @@
       <form id="nameForm" role="form">
         <div class="form-group">
           <label for="name">Email Address:</label>
-          <input type="email" id="firstName" name="nameValue" placeholder="Email Address" class="form-control" onblur="isEmail"><br>
+          <input type="email" id="firstName" name="nameValue" placeholder="Email Address" class="form-control" required><br>
           <select class="form-control" id="titlesDropdown">
             <% for(var i=0; i<titles.length; i++) {%>
             <option><%= titles[i] %></option>

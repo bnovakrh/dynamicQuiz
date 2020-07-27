@@ -1,7 +1,6 @@
 .DS_Store
 .sass-cache
 file.txt
-/data/*json
 
 # Logs
 logs

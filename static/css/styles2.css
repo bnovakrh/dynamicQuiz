@@ -93,6 +93,10 @@ canvas#piechart {
   width: 50%;
 }
 
+td {
+  text-transform: capitalize;
+}
+
 table#scoreTable, table#userTable {
   width: 50%;
 }

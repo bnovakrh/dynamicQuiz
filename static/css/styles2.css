@@ -88,6 +88,15 @@ h2#welcome {
   font-size: 36px;
 }
 
+canvas#piechart {
+  float: right;
+  width: 50%;
+}
+
+table#scoreTable, table#userTable {
+  width: 50%;
+}
+
 h3#questionNumber {
   color: green;
 }

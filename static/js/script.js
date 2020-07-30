@@ -79,7 +79,7 @@ $(document).ready(function() {
     nameForm();
   });
 
-  //create quiz
+ /* //create quiz
   document.getElementById("create_quiz").addEventListener("click", function(e) {
     // console.log("create");
     if ($("#createquizsubmit").length) {
@@ -94,7 +94,7 @@ $(document).ready(function() {
       loadQuizToCreate();
     }
     e.preventDefault();
-  });
+  }); */
 
   //update quiz
   document.getElementById("update_quiz").addEventListener("click", function(e) {
@@ -127,6 +127,7 @@ $(document).ready(function() {
   });
 
   //delete quiz
+  /*
   document.getElementById("delete_quiz").addEventListener("click", function(e) {
     selectedQuiz = ids[titles.indexOf($('#titlesDropdown option:selected').text())];
     // if there exists a quiz
@@ -168,7 +169,7 @@ $(document).ready(function() {
       });
     }
     e.preventDefault();
-  });
+  }); */
 
   document.getElementById("reset_quiz").addEventListener("click", function(e) {
     resetQuizzes();

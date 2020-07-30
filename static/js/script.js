@@ -1418,7 +1418,7 @@ function nextQuestion() {
       $('#piechart').fadeIn("slow");
       $('#home').show();
       calculateScore();
-      $('#nameScore').text(name + ", your score on this quiz is: " + score + "" + "out of" + "" + quizLength + " questions correct, or " + Math.round(100 * score / quizLength) + "%");
+      $('#nameScore').text(name + ", your score on this quiz is: " + score + " " + "out of" + " " + quizLength + " questions correct, or " + Math.round(100 * score / quizLength) + "%");
       scorePerQuestionTable();
 
       // Global Scores

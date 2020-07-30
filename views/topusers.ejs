@@ -29,7 +29,7 @@
   <!--<script src="static/js/script.js"></script>-->
 <script>
 $(document).ready(function(){
-  $.getJSON("data/users.json", function(data){
+  $.getJSON("/users", function(data){
     var leaderBoard = '';
     $.each(data, function(key, value){
       leaderBoard += '<tr>';

@@ -10,7 +10,9 @@ var path = require('ejs');
 
 var app = express();
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({
+  extended: true
+}));
 var content = fs.readFileSync("static/index.html", 'utf8');
 app.use("/static", express.static('static'));
 app.set('view engine', 'ejs');
@@ -19,28 +21,30 @@ app.get('/', function (req, res) {
   var readQuiz = fs.readFileSync("data/allQuizzes.json", 'utf8');
   var jsonContent = JSON.parse(readQuiz);
   var titles = [];
-  for (var i = 0; i<jsonContent.length; i++) {
+  for (var i = 0; i < jsonContent.length; i++) {
     titles[i] = jsonContent[i]["title"];
   }
-  res.render('index',{titles: titles});
+  res.render('index', {
+    titles: titles
+  });
 });
 
 app.get('/,/quiz', function (req, res) {
   var readQuiz = fs.readFileSync("data/allQuizzes.json", 'utf8');
   var jsonContent = JSON.parse(readQuiz);
   var titles = [];
-  for (var i = 0; i<jsonContent.length; i++) {
+  for (var i = 0; i < jsonContent.length; i++) {
     titles[i] = jsonContent[i]["title"];
   }
   res.send(JSON.stringify(titles));
 });
 
-app.post('/quiz', function(req, res){
+app.post('/quiz', function (req, res) {
   var sentQuiz = req.body;
   var readQuiz = fs.readFileSync("data/allQuizzes.json", 'utf8');
   var jsonContent = JSON.parse(readQuiz);
   if (jsonContent.length > 0) {
-    sentQuiz["id"] = jsonContent[jsonContent.length-1]["id"] + 1;
+    sentQuiz["id"] = jsonContent[jsonContent.length - 1]["id"] + 1;
   }
   jsonContent.push(sentQuiz);
 
@@ -113,7 +117,7 @@ app.get('/users', function (req, res) {
   res.send(readUsers);
 });
 
-app.post('/users', function(req, res){
+app.post('/users', function (req, res) {
   var jsonString = JSON.stringify(req.body);
   fs.writeFileSync("data/users.json", jsonString);
   res.send(req.body);
@@ -123,8 +127,8 @@ app.get('/titles', function (req, res) {
   var readQuiz = fs.readFileSync("data/allQuizzes.json", 'utf8');
   var jsonContent = JSON.parse(readQuiz);
   var titles = "[";
-  for (var i = 0; i<jsonContent.length; i++) {
-    if (i < jsonContent.length -1)
+  for (var i = 0; i < jsonContent.length; i++) {
+    if (i < jsonContent.length - 1)
       titles += "\"" + jsonContent[i]["title"] + "\"" + ", ";
     else
       titles += "\"" + jsonContent[i]["title"] + "\"";
@@ -137,15 +141,14 @@ app.get('/titlesandids', function (req, res) {
   var readQuiz = fs.readFileSync("data/allQuizzes.json", 'utf8');
   var jsonContent = JSON.parse(readQuiz);
   var titles = [];
-  for (var i = 0; i<jsonContent.length; i++) {
+  for (var i = 0; i < jsonContent.length; i++) {
     titles[i] = jsonContent[i]["title"];
     titles[jsonContent.length + i] = jsonContent[i]["id"];
   }
   res.send(JSON.stringify(titles));
 });
 
-
-var server = app.listen(process.env.PORT || 4000, function() {
+var server = app.listen(process.env.PORT || 4000, function () {
   var host = server.address().address;
   var port = server.address().port;
   console.log('Example app listening at http://%s:%s', host, port);

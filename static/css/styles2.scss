@@ -1,4 +1,6 @@
-$body-font: "Trebuchet MS", Helvetica, sans-serif;
+$body-font: "Trebuchet MS",
+Helvetica,
+sans-serif;
 $navy: #000084;
 $lighterNavy: #0000d3;
 $yellow: #dcdd63;
@@ -102,15 +104,19 @@ nav {
 
 a {
   color: $lighterNavy;
+
   &:hover {
     color: #00b7ff;
   }
+
   .cNavbar {
     color: $white;
   }
+
   .navbar-brand {
     color: $white;
   }
+
   #navbar,
   .navbar-nav,
   .nav,
@@ -141,20 +147,17 @@ label#ansLabels {
 }
 
 table {
-  border: 2px solid black;
-  text-align: center;
+  text-align: left;
   font-size: 20px;
 }
 
 tr {
   padding: 10px;
-  border: 2px solid black;
 }
 
 td {
   padding-left: 10px;
   padding-right: 10px;
-  border: 2px solid black;
 }
 
 .notice {
@@ -229,6 +232,7 @@ td {
   right: 0px;
   width: 50%;
   top: 5%;
+
   div {
     margin-bottom: 5px;
     margin-right: 5%;

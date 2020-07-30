@@ -97,7 +97,8 @@ td {
   text-transform: capitalize;
 }
 
-table#scoreTable, table#userTable {
+table#scoreTable,
+table#userTable {
   width: 50%;
   text-align: left !important;
 }
@@ -146,9 +147,6 @@ body a {
   text-decoration: none;
 }
 
-.table {
-  border: 1px solid #2980b9;
-}
 
 
 

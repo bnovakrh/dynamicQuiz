@@ -1344,7 +1344,7 @@ function createPieChart(wrong, right, percentW, percentR) {
   ctx.fill();
 
   // legend
-  ctx.font = "14px";
+  ctx.font = "16px";
 
   ctx.fillStyle = green;
   ctx.fillRect(cx + radius + 50, cy - 20, 20, 15);

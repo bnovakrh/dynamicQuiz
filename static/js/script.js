@@ -49,6 +49,7 @@ $(document).ready(function () {
   $('#nextQuestion').hide();
   $('#answerWarning').hide();
   $('#nameFormWarning').hide();
+  $('#nameFormWarning').hide();
   $('#scoreTable').hide();
   $('#userTable').hide();
   $('#tenScores').hide();
@@ -64,6 +65,7 @@ $(document).ready(function () {
   $('#piechart').hide();
   $('[data-hide]').on("click", function () {
     $('#nameFormWarning').hide();
+    $('#emailFormWarning').hide();
     $('#answerWarning').hide();
     $('#quizSuccess').hide();
     $('#quizWarning').hide();

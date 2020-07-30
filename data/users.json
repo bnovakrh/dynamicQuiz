@@ -1,11 +1,13 @@
 [
   {
-    "name": "bnovak@redhat.com",
-    "user_correct": 0,
+    "name": "Amy Bate",
+    "email": "abate@bates.com",
+    "user_correct": 5,
     "user_total": 5
   },
   {
-    "name": "jjohnson@redhat.com",
+    "name": "Bill Novak",
+    "email": "bnovak@redhat.com",
     "user_correct": 5,
     "user_total": 5
   }

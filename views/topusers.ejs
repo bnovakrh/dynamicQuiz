@@ -38,7 +38,7 @@ $(document).ready(function(){
       leaderBoard += '<td>'+value.name+'</td>';
       leaderBoard += '<td>'+value.email+'</td>';
       leaderBoard += '<td>'+value.user_correct+'</td>';
-      leaderBoard += '<td>'+((value.user_correct/value.global_correct) * 100).toFixed(2)+'%'+'</td>';
+      leaderBoard += '<td>'+((value.user_correct/value.user_total) * 100).toFixed(2)+'%'+'</td>';
       leaderBoard += '</tr>';
     });
     $('#leaderTable').append(leaderBoard);

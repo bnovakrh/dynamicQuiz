@@ -124,37 +124,47 @@
     Red Hat Summit
   </div>
   <script src="static/js/jquery-2.1.4.min.js"></script>
-  <script>
-    function validateEmail(id) {
-      var regex =
-        /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
-      var email = $("#" + id).val();
-      if (id == "firstName") {
-        if (regex.test(email)) {
-          $('#changeMsg').text('Valid');
-          $('#changeMsg').attr('style', 'color:green;');
-        } else {
-          $('#changeMsg').text('Invalid');
-          $('#changeMsg').attr('style', 'color:red;');
-        }
-      } else {
-        if (regex.test(email)) {
-          $('#keyupMsg').text('O');
-          $('#keyupMsg').attr('style', 'color:green;');
-        } else {
-          $('#keyupMsg').text('X');
-          $('#keyupMsg').attr('style', 'color:red;');
-        }
-      }
-    }
 
-    $("#firstName").change(function () {
-      validateEmail("firstName");
-    })
-    $("#keyupTest").on("keyup", function () {
-      validateEmail("keyupTest");
-    })
-  </script>
+<script>
+var emailInput;
+
+$("#firstName").on("change", function() {
+  emailInput = $(this).val();
+
+  if (validateEmail(emailInput)) {
+    $(this).css({
+      color: "white",
+      background: "green",
+      border: "1px solid green"
+    });
+  } else {
+    $(this).css({
+      color: "red",
+      border: "1px solid red"
+    });
+
+    // alert("not a valid email address");
+  }
+});
+
+$("#start_quiz").on("click", function(e) {
+  // e.preventDefault();
+  if (validateEmail(emailInput)) {
+    alert("you did it!");
+  } else {
+    alert('nope');
+    return false;
+  }
+});
+
+function validateEmail(email) {
+  var pattern = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+
+  return $.trim(email).match(pattern) ? true : false;
+}
+
+</script>
+  
   <script src="static/js/bootstrap.min.js"></script>
   <!-- <script src="static/js/quiz.js"></script> -->
   <script src="static/js/script.js"></script>

@@ -173,11 +173,12 @@ $(document).ready(function () {
   */
 
 
-
-  document.getElementById("reset_quiz").addEventListener("click", function (e) {
-    resetQuizzes();
-    e.preventDefault();
-  });
+  /* No Need for CSAA
+    document.getElementById("reset_quiz").addEventListener("click", function (e) {
+      resetQuizzes();
+      e.preventDefault();
+    });
+    */
 
   document.getElementById("previousQuestion").addEventListener("click", back);
   document.getElementById("nextQuestion").addEventListener("click", nextQuestion);

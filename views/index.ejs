@@ -1,5 +1,23 @@
 <% include header %>
+<style>
+/* Email Validation */
+input[type="email"] {
+  border: 1px solid #ddd;
+  padding: 4px 8px;
+}
 
+input[type="email"]:focus {
+  border: 1px solid #000;
+}
+
+input[type="submit"] {
+  font-weight: bold;
+  padding: 4px 8px;
+  border:1px solid #000;
+  background: #3b5998;
+  color:#fff;
+}
+</style>
 <body>
   <header>
     <div id="bn-logo"></div>
@@ -46,7 +64,7 @@
           <br>
           <input class="btn btn-primary" class="form-control" type="submit" id="start_quiz" value="Start Quiz" />
           <!--<input class="btn btn-success" class="form-control" type="submit" id="create_quiz" value="Create Quiz">-->
-          <input class="btn btn-warning" class="form-control" type="submit" id="update_quiz" value="Update Quiz" />
+          <input class="btn btn-warning" class="form-control" type="submit" id="update_quiz" value="Update Quiz">
           <!--<input class="btn btn-danger" class="form-control" type="submit" id="delete_quiz" value="Delete Quiz">-->
           
         </div>

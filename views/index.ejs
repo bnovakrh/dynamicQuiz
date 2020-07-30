@@ -38,6 +38,8 @@
         <div class="form-group">
           <label for="name">First and Last Name:</label>
           <input type="Text" id="firstName" name="nameValue" placeholder="First and Last Name" class="form-control" /><br>
+          <label for="email">Your Email Address:</label>
+          <input type="email" id="emailAddress" name="emailValue" placeholder="name@email.com" class="form-control" required /><br>
           <select class="form-control" id="titlesDropdown">
             <% for(var i=0; i<titles.length; i++) {%>
             <option><%= titles[i] %></option>

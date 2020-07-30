@@ -365,6 +365,7 @@ $(document).ready(function () {
 // After name is submitted on initial screen
 function nameForm() {
   name = $('#nameForm').serializeArray()[0]["value"];
+  email = $('#nameForm').serializeArray()[1]["value"];
   if (name.length === 0) {
     $('#firstName').css({
       "border": '1px solid #FF0000'

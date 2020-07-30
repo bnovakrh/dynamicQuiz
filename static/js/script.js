@@ -368,7 +368,7 @@ function nameForm() {
     $('#firstName').css({
       "border": '1px solid #FF0000'
     });
-    $('emailAddress').css({
+    $('#emailAddress').css({
       "border": '1px solid #ff0000'
     });
     $('#emailFormWarning').show();

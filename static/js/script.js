@@ -9,6 +9,7 @@
 
 var quiz;
 var name = "Name";
+var email = "Email"
 var currentQuestion = -1;
 var quizLength = 0;
 var numAns = 0;
@@ -368,13 +369,6 @@ function nameForm() {
     $('#firstName').css({
       "border": '1px solid #FF0000'
     });
-    $('#emailAddress').css({
-      "border": '1px solid #ff0000'
-    });
-    $('#emailFormWarning').show();
-    $("#emailFormWarning").fadeTo(notificationFadeTime, 500).slideUp(500, function () {
-      $("#emailFormWarning").hide();
-    });
     $('#nameFormWarning').show();
     $("#nameFormWarning").fadeTo(notificationFadeTime, 500).slideUp(500, function () {
       $("#nameFormWarning").hide();
@@ -384,7 +378,6 @@ function nameForm() {
       "border": '1px solid #ccc'
     });
     $('#nameFormWarning').hide();
-    $('#emailFormWarning').hide();
     $('#nameForm').hide();
     $('#welcome').text("Welcome " + name + "!");
     selectedQuiz = ids[titles.indexOf($('#titlesDropdown option:selected').text())];
@@ -1216,7 +1209,7 @@ function topTen(allUsers) {
   allUsers.sort(function (a, b) {
     return ((b["user_correct"] * 1.0) / b["user_total"]) - ((a["user_correct"] * 1.0) / a["user_total"]);
   });
-  for (var i = 0; i < 10; i++) {
+  for (var i = 0; i < 20; i++) {
     if (i < allUsers.length) {
       $('#userTable > tbody:last-child').append('<tr class="success"><td>' + allUsers[i]["name"] +
         '</td><td>' + Math.round((allUsers[i]["user_correct"] * 100) / allUsers[i]["user_total"]) + "%" +
@@ -1243,6 +1236,7 @@ function userScore() {
       if (currentUser === userJSON.length) {
         var newUser = {
           "name": name,
+          "email": email,
           "user_correct": 0,
           "user_total": 0
         };

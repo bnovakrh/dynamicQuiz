@@ -316,5 +316,9 @@ td {
   margin-right: 5px;
 }
 
+tbody tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+
 
 /*# sourceMappingURL=styles2.css.map */

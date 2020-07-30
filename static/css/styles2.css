@@ -99,7 +99,13 @@ td {
 
 table#scoreTable, table#userTable {
   width: 50%;
+  text-align: left !important;
 }
+
+table#userTable {
+  margin-bottom: 100px;
+}
+
 
 h3#questionNumber {
   color: green;

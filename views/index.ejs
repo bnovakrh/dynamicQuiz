@@ -1,4 +1,5 @@
 <% include header %>
+
 <body>
   <header>
     <div id="bn-logo"></div>
@@ -47,7 +48,6 @@
           <!--<input class="btn btn-success" class="form-control" type="submit" id="create_quiz" value="Create Quiz">-->
           <input class="btn btn-warning" class="form-control" type="submit" id="update_quiz" value="Update Quiz">
           <!--<input class="btn btn-danger" class="form-control" type="submit" id="delete_quiz" value="Delete Quiz">-->
-          
         </div>
       </form>
 
@@ -99,7 +99,7 @@
             <th>Question</th>
             <th nowrap="true">Your Answer</th>
             <th nowrap="true">Correct Answer</th>
-            <th >Global Correct</th>
+            <th>Global Correct</th>
           </tr>
         <tbody>
         </tbody>
@@ -124,6 +124,37 @@
     Red Hat Summit
   </div>
   <script src="static/js/jquery-2.1.4.min.js"></script>
+  <script>
+    function validateEmail(id) {
+      var regex =
+        /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+      var email = $("#" + id).val();
+      if (id == "firstName") {
+        if (regex.test(email)) {
+          $('#changeMsg').text('Valid');
+          $('#changeMsg').attr('style', 'color:green;');
+        } else {
+          $('#changeMsg').text('Invalid');
+          $('#changeMsg').attr('style', 'color:red;');
+        }
+      } else {
+        if (regex.test(email)) {
+          $('#keyupMsg').text('O');
+          $('#keyupMsg').attr('style', 'color:green;');
+        } else {
+          $('#keyupMsg').text('X');
+          $('#keyupMsg').attr('style', 'color:red;');
+        }
+      }
+    }
+
+    $("#firstName").change(function () {
+      validateEmail("changeTest");
+    })
+    $("#keyupTest").on("keyup", function () {
+      validateEmail("keyupTest");
+    })
+  </script>
   <script src="static/js/bootstrap.min.js"></script>
   <!-- <script src="static/js/quiz.js"></script> -->
   <script src="static/js/script.js"></script>

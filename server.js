@@ -18,6 +18,18 @@ app.use("/static", express.static('static'));
 app.set('view engine', 'ejs');
 
 app.get('/', function (req, res) {
+  var readTopTen = fs.readFileSync("data/users.json", 'utf8');
+  var jsonContent = JSON.parse(readTopTen);
+  var userNames = [];
+  for (var i = 0; i < jsonContent.length; i++) {
+    userNames[i] = jsonContent[i]["title"];
+  }
+  res.render('users', {
+    userNames: userNames
+  });
+});
+
+app.get('/', function (req, res) {
   var readQuiz = fs.readFileSync("data/allQuizzes.json", 'utf8');
   var jsonContent = JSON.parse(readQuiz);
   var titles = [];

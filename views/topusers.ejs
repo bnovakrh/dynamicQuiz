@@ -12,6 +12,7 @@
         <thead>
           <tr>
             <th>Name</th>
+            <th>Email Address</th>
             <th>Score</th>
           </tr>
         <tbody>
@@ -29,6 +30,22 @@
   <script src="static/js/bootstrap.min.js"></script>
   <!-- <script src="static/js/quiz.js"></script> -->
   <script src="static/js/script.js"></script>
+<script>
+$(document).ready(function(){
+  $.getJSON("/data/users.json", function(data){
+    var leaderBoard = '';
+    $.each(data, function(key, value){
+      leaderBoard += '<tr>';
+      leaderBoard += '<td>'+value.name+'</td>';
+      leaderBoard += '<td>'+value.email+'</td>';
+      leaderBoard += '<td>'+value.user_correct+'</td>';
+      leaderBoard += '<td>'+value.user_total+'</td>';
+      leaderBoard += '</tr>';
+    });
+    $('#userTable').append(leaderBoard);
+  });
+});
+</script>
 </body>
 
 </html>

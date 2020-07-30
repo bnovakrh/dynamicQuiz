@@ -8,7 +8,7 @@
   <div id="bn-main-wrapper">
     <div class="container">
       <h2 id="tenScores">Top Participant Scores:</h2>
-      <table class="table table-hover" id="userTable">
+      <table class="table table-hover" id="leaderTable">
         <thead>
           <tr>
             <th>Name</th>
@@ -42,7 +42,7 @@ $(document).ready(function(){
       leaderBoard += '<td>'+value.user_total+'</td>';
       leaderBoard += '</tr>';
     });
-    $('#userTable').append(leaderBoard);
+    $('#leaderTable').append(leaderBoard);
   });
 });
 </script>

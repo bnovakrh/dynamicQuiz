@@ -368,6 +368,13 @@ function nameForm() {
     $('#firstName').css({
       "border": '1px solid #FF0000'
     });
+    $('emailAddress').css({
+      "border": '1px solid #ff0000'
+    });
+    $('#emailFormWarning').show();
+    $("#emailFormWarning").fadeTo(notificationFadeTime, 500).slideUp(500, function () {
+      $("#emailFormWarning").hide();
+    });
     $('#nameFormWarning').show();
     $("#nameFormWarning").fadeTo(notificationFadeTime, 500).slideUp(500, function () {
       $("#nameFormWarning").hide();
@@ -377,6 +384,7 @@ function nameForm() {
       "border": '1px solid #ccc'
     });
     $('#nameFormWarning').hide();
+    $('#emailFormWarning').hide();
     $('#nameForm').hide();
     $('#welcome').text("Welcome " + name + "!");
     selectedQuiz = ids[titles.indexOf($('#titlesDropdown option:selected').text())];

@@ -358,7 +358,7 @@ $(document).ready(function () {
   });
 });
 
-/*
+
 // After name is submitted on initial screen
 function nameForm() {
   name = $('#nameForm').serializeArray()[0]["value"];
@@ -384,7 +384,6 @@ function nameForm() {
     loadQuiz(selectedQuiz);
   }
 }
-*/
 
 // load titles in allQuizzes
 function loadTitles() {

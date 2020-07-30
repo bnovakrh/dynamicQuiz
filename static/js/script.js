@@ -374,17 +374,15 @@ function nameForm() {
     $("#nameFormWarning").fadeTo(notificationFadeTime, 500).slideUp(500, function () {
       $("#nameFormWarning").hide();
     });
-
-    if (email.length === 0) {
-      $('#emailName').css({
-        "border": '1px solid #FF0000'
-      });
-      $('#emailFormWarning').show();
-      $("#emailFormWarning").fadeTo(notificationFadeTime, 500).slideUp(500, function () {
-        $("#emailFormWarning").hide();
-      });
-
-    }
+  }
+  else if (email.length === 0) {
+    $('#emailName').css({
+      "border": '1px solid #FF0000'
+    });
+    $('#emailFormWarning').show();
+    $("#emailFormWarning").fadeTo(notificationFadeTime, 500).slideUp(500, function () {
+      $("#emailFormWarning").hide();
+    });
 
   } else {
     $('#firstName').css({

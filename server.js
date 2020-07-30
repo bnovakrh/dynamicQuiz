@@ -17,7 +17,7 @@ var content = fs.readFileSync("static/index.html", 'utf8');
 app.use("/static", express.static('static'));
 app.set('view engine', 'ejs');
 
-app.get('/', function (req, res) {
+app.get('/tops', function (req, res) {
   var readTopTen = fs.readFileSync("data/users.json", 'utf8');
   var jsonContent = JSON.parse(readTopTen);
   var userNames = [];

@@ -1344,14 +1344,14 @@ function createPieChart(wrong, right, percentW, percentR) {
   ctx.fill();
 
   // legend
-  ctx.font = "14px Calibri";
+  ctx.font = "14px";
 
   ctx.fillStyle = green;
-  ctx.fillRect(cx + 20 + 50, cy - 20, 20, 15);
+  ctx.fillRect(cx + radius + 50, cy - 20, 20, 15);
   ctx.fillText("Correct", cx + radius + 80, cy - 10);
 
   ctx.fillStyle = red;
-  ctx.fillRect(cx + 20 + 50, cy + 20, 20, 15);
+  ctx.fillRect(cx + radius + 50, cy + 20, 20, 15);
   ctx.fillText("Incorrect", cx + radius + 80, cy + 30);
 }
 
@@ -1418,7 +1418,7 @@ function nextQuestion() {
       $('#piechart').fadeIn("slow");
       $('#home').show();
       calculateScore();
-      $('#nameScore').text(name + ", your score on this quiz is: " + score + "out of" + quizLength + " questions or " + Math.round(100 * score / quizLength) + "%");
+      $('#nameScore').text(name + ", your score on this quiz is: " + score + "out of" + quizLength + " questions correct, or " + Math.round(100 * score / quizLength) + "%");
       scorePerQuestionTable();
 
       // Global Scores

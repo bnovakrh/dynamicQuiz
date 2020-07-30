@@ -316,5 +316,23 @@ td {
   margin-right: 5px;
 }
 
+/* Email Validation */
+input[type="email"] {
+  border: 1px solid #ddd;
+  padding: 4px 8px;
+}
+
+input[type="email"]:focus {
+  border: 1px solid #000;
+}
+
+input[type="submit"] {
+  font-weight: bold;
+  padding: 4px 8px;
+  border:1px solid #000;
+  background: #3b5998;
+  color:#fff;
+}
+
 
 /*# sourceMappingURL=styles2.css.map */

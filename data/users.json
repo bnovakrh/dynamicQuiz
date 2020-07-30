@@ -1,7 +1,12 @@
 [
-    {
-      "name": "bnovak@redhat.com",
-      "user_correct": 0,
-      "user_total": 0
-    }
-  ]
+  {
+    "name": "bnovak@redhat.com",
+    "user_correct": 0,
+    "user_total": 5
+  },
+  {
+    "name": "jjohnson@redhat.com",
+    "user_correct": 5,
+    "user_total": 5
+  }
+]

@@ -78,7 +78,7 @@ $(document).ready(function() {
     e.preventDefault();
     nameForm();
   });
-
+/* No Need for CSAA
   //create quiz
   document.getElementById("create_quiz").addEventListener("click", function(e) {
     // console.log("create");
@@ -95,6 +95,7 @@ $(document).ready(function() {
     }
     e.preventDefault();
   });
+*/
 
   //update quiz
   document.getElementById("update_quiz").addEventListener("click", function(e) {

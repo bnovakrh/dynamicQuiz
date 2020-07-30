@@ -55,6 +55,22 @@
         "meta_tags": [
           "Collin's Phone"
         ]
+      },
+      {
+        "text": "Complete this phrase: _____________________ drive the need for innovation",
+        "answers": [
+          "Communities",
+          "Open Sources",
+          "Meritocracies",
+          "Business Requirements",
+          "Line of Business Units"
+        ],
+        "correct_answer": 3,
+        "global_correct": 0,
+        "global_total": 0,
+        "meta_tags": [
+          "Innovation"
+        ]
       }
     ]
   }

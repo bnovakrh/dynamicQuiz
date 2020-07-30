@@ -103,8 +103,17 @@ table#userTable {
   text-align: left !important;
 }
 
-table#userTable {
+table#userTable, table#scoreTable {
   margin-bottom: 100px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #dddddd !important;
+  border-width: 1px;
+}
+
+th {
+  border-bottom: none !important;
+  border-bottom-color: #dddddd !important;
 }
 
 

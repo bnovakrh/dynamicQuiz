@@ -103,9 +103,10 @@ table#userTable {
   text-align: left !important;
 }
 
-table#userTable, table#scoreTable {
+table#userTable,
+table#scoreTable {
   margin-bottom: 100px;
-  border-radius: 20px;
+  border-radius: 15px;
   border-style: solid;
   border-color: #dddddd !important;
   border-width: 1px;
@@ -113,7 +114,15 @@ table#userTable, table#scoreTable {
 
 th {
   border-bottom: none !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
   border-bottom-color: #dddddd !important;
+}
+
+thead {
+  background-color: red;
+  color: white;
 }
 
 
@@ -155,9 +164,6 @@ body a {
 #previousQuestion {
   text-decoration: none;
 }
-
-
-
 
 th {
   text-align: left;

@@ -154,17 +154,9 @@ body a {
   border-bottom: none;
 }
 
-.table thead>tr>th,
-.table tbody>tr>th,
-.table tfoot>tr>th,
-.table thead>tr>td,
-.table tbody>tr>td,
-.table tfoot>tr>td {
-  border: 1px solid #000000;
-}
 
 th {
-  text-align: center;
+  text-align: left;
 }
 
 .questionNum {

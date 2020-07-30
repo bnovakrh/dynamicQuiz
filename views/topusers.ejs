@@ -30,7 +30,7 @@
   <!-- <script src="static/js/quiz.js"></script> -->
   <!--<script src="static/js/script.js"></script>-->
 <script>
-setInterval(function() { 
+setInterval(function() {
 $(document).ready(function(){
   $.getJSON("/users", function(data){
     var leaderBoard = '';
@@ -45,6 +45,7 @@ $(document).ready(function(){
     $('#leaderTable').append(leaderBoard);
   });
 });
+},
 1000); //1000 milliseconds (1 second). Change the value to whatever you need.
 </script>
 </body>

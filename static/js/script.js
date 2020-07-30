@@ -1199,12 +1199,12 @@ function whichChecked() {
   }
 }
 
-// top ten users
+// top twenty users
 function topTen(allUsers) {
   allUsers.sort(function (a, b) {
     return ((b["user_correct"] * 1.0) / b["user_total"]) - ((a["user_correct"] * 1.0) / a["user_total"]);
   });
-  for (var i = 0; i < 10; i++) {
+  for (var i = 0; i < 20; i++) {
     if (i < allUsers.length) {
       $('#userTable > tbody:last-child').append('<tr class="success"><td>' + allUsers[i]["name"] +
         '</td><td>' + Math.round((allUsers[i]["user_correct"] * 100) / allUsers[i]["user_total"]) + "%" +

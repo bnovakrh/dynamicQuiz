@@ -1204,7 +1204,7 @@ function topTen(allUsers) {
   allUsers.sort(function (a, b) {
     return ((b["user_correct"] * 1.0) / b["user_total"]) - ((a["user_correct"] * 1.0) / a["user_total"]);
   });
-  for (var i = 0; i < 20; i++) {
+  for (var i = 0; i < 10; i++) {
     if (i < allUsers.length) {
       $('#userTable > tbody:last-child').append('<tr class="success"><td>' + allUsers[i]["name"] +
         '</td><td>' + Math.round((allUsers[i]["user_correct"] * 100) / allUsers[i]["user_total"]) + "%" +
@@ -1313,8 +1313,8 @@ function scorePerQuestionTable() {
 
 // Create pie chart for score
 function createPieChart(wrong, right, percentW, percentR) {
-  var red = "#FF0000 ";
-  var green = "#006600";
+  var red = "#ee0000 ";
+  var green = "#4c9d2f";
 
   var chart = document.getElementById('piechart');
   var ctx = chart.getContext('2d');
@@ -1347,11 +1347,11 @@ function createPieChart(wrong, right, percentW, percentR) {
   ctx.font = "14px Calibri";
 
   ctx.fillStyle = green;
-  ctx.fillRect(cx + radius + 50, cy - 20, 20, 15);
+  ctx.fillRect(cx + 20 + 50, cy - 20, 20, 15);
   ctx.fillText("Correct", cx + radius + 80, cy - 10);
 
   ctx.fillStyle = red;
-  ctx.fillRect(cx + radius + 50, cy + 20, 20, 15);
+  ctx.fillRect(cx + 20 + 50, cy + 20, 20, 15);
   ctx.fillText("Incorrect", cx + radius + 80, cy + 30);
 }
 

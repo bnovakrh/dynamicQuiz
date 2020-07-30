@@ -49,7 +49,7 @@ $(document).ready(function () {
   $('#nextQuestion').hide();
   $('#answerWarning').hide();
   $('#nameFormWarning').hide();
-  $('#nameFormWarning').hide();
+  $('#emailFormWarning').hide();
   $('#scoreTable').hide();
   $('#userTable').hide();
   $('#tenScores').hide();

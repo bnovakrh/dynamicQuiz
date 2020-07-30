@@ -1,77 +1,7 @@
 [
     {
-      "name": "tes@redhat.com",
-      "user_correct": 10,
-      "user_total": 10
-    },
-    {
-      "name": "test8@redhat.com",
-      "user_correct": 10,
-      "user_total": 10
-    },
-    {
-      "name": "test9@rehat.com",
-      "user_correct": 8,
-      "user_total": 10
-    },
-    {
-      "name": "test6@redhat.com",
-      "user_correct": 7,
-      "user_total": 10
-    },
-    {
-      "name": "test10@redhat.com",
-      "user_correct": 7,
-      "user_total": 10
-    },
-    {
-      "name": "test11@redhat.com",
-      "user_correct": 6,
-      "user_total": 10
-    },
-    {
-      "name": "test12@redhat.com",
-      "user_correct": 6,
-      "user_total": 10
-    },
-    {
-      "name": "test14",
-      "user_correct": 6,
-      "user_total": 10
-    },
-    {
       "name": "bnovak@redhat.com",
-      "user_correct": 5,
-      "user_total": 10
-    },
-    {
-      "name": "Test2@redhat.com",
-      "user_correct": 4,
-      "user_total": 10
-    },
-    {
-      "name": "collin@redhat.com",
-      "user_correct": 3,
-      "user_total": 10
-    },
-    {
-      "name": "test4@redhat.com",
-      "user_correct": 3,
-      "user_total": 10
-    },
-    {
-      "name": "test7@redhat.com",
-      "user_correct": 3,
-      "user_total": 10
-    },
-    {
-      "name": "test3@redhat.com",
-      "user_correct": 2,
-      "user_total": 10
-    },
-    {
-      "name": "test13",
-      "user_correct": 2,
-      "user_total": 10
+      "user_correct": 0,
+      "user_total": 0
     }
   ]

@@ -57,7 +57,7 @@
         ]
       },
       {
-        "text": "Complete this phrase: _____________________ drive the need for innovation",
+        "text": "Complete the phrase: _____________________ drive the need for innovation",
         "answers": [
           "Communities",
           "Open Sources",
@@ -70,6 +70,22 @@
         "global_total": 0,
         "meta_tags": [
           "Innovation"
+        ]
+      },
+      {
+        "text": "An OpenShift Project is Essentially a/an _______________",
+        "answers": [
+          "Application",
+          "Database",
+          "Service",
+          "Container",
+          "Namespace"
+        ],
+        "correct_answer": 4,
+        "global_correct": 0,
+        "global_total": 0,
+        "meta_tags": [
+          "Project"
         ]
       }
     ]

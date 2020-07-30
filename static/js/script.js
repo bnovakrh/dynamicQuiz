@@ -376,7 +376,7 @@ function nameForm() {
     });
   }
   else if (email.length === 0) {
-    $('#emailName').css({
+    $('#emailAddress').css({
       "border": '1px solid #FF0000'
     });
     $('#emailFormWarning').show();
@@ -388,7 +388,7 @@ function nameForm() {
     $('#firstName').css({
       "border": '1px solid #ccc'
     });
-    $('#emailName').css({
+    $('#emailAddress').css({
       "border": '1px solid #ccc'
     });
     $('#nameFormWarning').hide();

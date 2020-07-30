@@ -363,7 +363,7 @@ $(document).ready(function () {
 
 // After name is submitted on initial screen
 function nameForm() {
-  name = $('#nameForm').serializeArray()[0]["value"];
+  name = $('#nameForm').serializeArray()[0,1]["value"];
   if (name.length === 0) {
     $('#firstName').css({
       "border": '1px solid #FF0000'

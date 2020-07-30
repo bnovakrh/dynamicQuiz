@@ -24,7 +24,7 @@ app.get('/tops', function (req, res) {
   for (var i = 0; i < jsonContent.length; i++) {
     userNames[i] = jsonContent[i]["title"];
   }
-  res.render('users', {
+  res.render('topusers', {
     userNames: userNames
   });
 });

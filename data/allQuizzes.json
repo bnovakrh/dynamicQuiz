@@ -1,93 +1,64 @@
-[
-  {
-    "id": 12,
-    "title": "Red Hat Tech Talk",
-    "description": "On behalf of your Red hat team, we'd like to thank you for your participation today. With that said, did you catch all that information? Please ener your first and last name and do your best. We will award prizes to the top ten teammates on the leaderboard.",
-    "meta_tags": [
-      "CSAA Tech Talk"
-    ],
-    "difficulty": "20",
-    "questions": [
-      {
-        "text": "What Was the First Topic in Today's Red Hat Tech Talk?",
-        "answers": [
-          "What is OpenShift?",
-          "What Impact Does OpenShift Have On Me?",
-          "Your Red Hat Team",
-          "Open Source Community"
-        ],
-        "correct_answer": 2,
-        "global_correct": 0,
-        "global_total": 0,
-        "meta_tags": [
-          "First Topic"
-        ]
-      },
-      {
-        "text": "Which Word Was Not Part of Buzzword Bingo Slide?",
-        "answers": [
-          "Function as a Service",
-          "Agile Development",
-          "Kubernetes",
-          "Artificial Intelligence",
-          "Cloud",
-          "Microservices"
-        ],
-        "correct_answer": 3,
-        "global_correct": 0,
-        "global_total": 0,
-        "meta_tags": [
-          "Buzzword Bingo"
-        ]
-      },
-      {
-        "text": "What is Collin Webster's Phone Number?",
-        "answers": [
-          "714-934-5080",
-          "714-943-8080",
-          "714-349-5080",
-          "714-943-5080",
-          "714-943-8050"
-        ],
-        "correct_answer": 3,
-        "global_correct": 0,
-        "global_total": 0,
-        "meta_tags": [
-          "Collin's Phone"
-        ]
-      },
-      {
-        "text": "Complete the phrase: _____________________ drive the need for innovation",
-        "answers": [
-          "Communities",
-          "Open Sources",
-          "Meritocracies",
-          "Business Requirements",
-          "Line of Business Units"
-        ],
-        "correct_answer": 3,
-        "global_correct": 0,
-        "global_total": 0,
-        "meta_tags": [
-          "Innovation"
-        ]
-      },
-      {
-        "text": "An OpenShift Project is Essentially a/an _______________",
-        "answers": [
-          "Application",
-          "Database",
-          "Service",
-          "Container",
-          "Namespace"
-        ],
-        "correct_answer": 4,
-        "global_correct": 0,
-        "global_total": 0,
-        "meta_tags": [
-          "Project"
-        ]
-      }
-    ]
-  }
-]
+[{
+  "id": 12,
+  "title": "Red Hat Tech Talk",
+  "description": "On behalf of your Red hat team, we'd like to thank you for your participation today. With that said, did you catch all that information? Please ener your first and last name and do your best. We will award prizes to the top ten teammates on the leaderboard.",
+  "meta_tags": ["CSAA Tech Talk"],
+  "difficulty": "20",
+  "questions": [{
+    "text": "What Was the First Topic in Today's Red Hat Tech Talk?",
+    "answers": ["What is OpenShift?", "What Impact Does OpenShift Have On Me?", "Your Red Hat Team", "Open Source Community"],
+    "correct_answer": 2,
+    "global_correct": 0,
+    "global_total": 0,
+    "meta_tags": ["First Topic"]
+  }, {
+    "text": "Which word was not part of Buzzword Bingo slide?",
+    "answers": ["Function as a Service", "Agile Development", "Kubernetes", "Artificial Intelligence", "Cloud", "Microservices"],
+    "correct_answer": 3,
+    "global_correct": 0,
+    "global_total": 0,
+    "meta_tags": ["Buzzword Bingo"]
+  }, {
+    "text": "What is Collin Webster's phone number?",
+    "answers": ["714-934-5080", "714-943-8080", "714-349-5080", "714-943-5080", "714-943-8050"],
+    "correct_answer": 3,
+    "global_correct": 0,
+    "global_total": 0,
+    "meta_tags": ["Collin's Phone"]
+  }, {
+    "text": "Complete the phrase: _____________________ drive the need for innovation",
+    "answers": ["Communities", "Open Sources", "Meritocracies", "Business Requirements", "Line of Business Units"],
+    "correct_answer": 3,
+    "global_correct": 0,
+    "global_total": 0,
+    "meta_tags": ["Innovation"]
+  }, {
+    "text": "An OpenShift project is essentially a/an _______________",
+    "answers": ["Application", "Database", "Service", "Container", "Namespace"],
+    "correct_answer": 4,
+    "global_correct": 0,
+    "global_total": 0,
+    "meta_tags": ["Project"]
+  }, {
+    "text": "Red Hat is an enterprise software company with a/an __________ ______________ development model",
+    "answers": ["Open Source", "Closed Source", "Opinionated", "Non-Opinionated", "Open Door"],
+    "correct_answer": 0,
+    "global_correct": 0,
+    "global_total": 0,
+    "meta_tags": ["Development Model"]
+  }, {
+    "text": "What is the name of the man in Red Hat’s Old logo?",
+    "answers": ["Sneaky Sam", "Bond, James Bond", "Joshua", "David", "Leet Man", "Shadow Man"],
+    "correct_answer": 5,
+    "global_correct": 0,
+    "global_total": 0,
+    "meta_tags": ["Logo Man"]
+  }, {
+    "text": "What word is best used to describe OpenShift's support of many development languages?",
+    "answers": ["Polyshore", "Flexible", "Polyglot", "Output Independent", "Bilingual"],
+    "correct_answer": 2,
+    "global_correct": 0,
+    "global_total": 0,
+    "meta_tags": ["Language Support"]
+  }]
+}]

@@ -172,7 +172,6 @@ $(document).ready(function () {
   });
   */
 
-
   /* No Need for CSAA
     document.getElementById("reset_quiz").addEventListener("click", function (e) {
       resetQuizzes();

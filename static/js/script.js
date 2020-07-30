@@ -374,11 +374,27 @@ function nameForm() {
     $("#nameFormWarning").fadeTo(notificationFadeTime, 500).slideUp(500, function () {
       $("#nameFormWarning").hide();
     });
+
+    if (email.length === 0) {
+      $('#emailName').css({
+        "border": '1px solid #FF0000'
+      });
+      $('#emailFormWarning').show();
+      $("#emailFormWarning").fadeTo(notificationFadeTime, 500).slideUp(500, function () {
+        $("#emailFormWarning").hide();
+      });
+
+    }
+
   } else {
     $('#firstName').css({
       "border": '1px solid #ccc'
     });
+    $('#emailName').css({
+      "border": '1px solid #ccc'
+    });
     $('#nameFormWarning').hide();
+    $('#emailFormWarning').hide();
     $('#nameForm').hide();
     $('#welcome').text("Welcome " + name + "!");
     selectedQuiz = ids[titles.indexOf($('#titlesDropdown option:selected').text())];

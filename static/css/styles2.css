@@ -320,5 +320,12 @@ td {
   background-color: #dddddd;
 }
 
+#leaderTable tr {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 
 /*# sourceMappingURL=styles2.css.map */

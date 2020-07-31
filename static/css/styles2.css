@@ -330,5 +330,12 @@ td {
   padding-bottom: 7px;
 }
 
+#shadowMan img {
+  max-width: 100px;
+  z-index: 50;
+  position: absolute;
+  right: 20px;
+  bottom: 75px;
+
 
 /*# sourceMappingURL=styles2.css.map */

@@ -6,15 +6,21 @@
     "user_total": 10
   },
   {
-    "name": "Jon T",
+    "name": "Jon Tomaszewski",
     "email": "jont@redhat.com",
-    "user_correct": 5,
+    "user_correct": 3,
     "user_total": 10
   },
   {
     "name": "Joshua Johnson",
     "email": "johnson@redhat.com",
-    "user_correct": 10,
+    "user_correct": 2,
+    "user_total": 10
+  },
+  {
+    "name": "Pieter Malan",
+    "email": "pmalan@redhat.com",
+    "user_correct": 4,
     "user_total": 10
   }
 ]

@@ -39,8 +39,8 @@ $(document).ready(function () {
       $('#ajaxloading').show();
       $('#reload').show();
     });
-  $('#title').text("CSAA Tech Talk Quiz");
-  $('#introParagraph').text("On behalf of your Red hat team, we'd like to thank you for your participation today. With that said, did you catch all that information? Please ener your first and last name and do your best. We will award prizes to the top ten teammates on the leaderboard.");
+  $('#title').text("Red Hat OCP Quick Quiz");
+  $('#introParagraph').text("On behalf of your Red Hat team, we'd like to thank you for your participation today. With that said, did you catch all that information? Please ener your first and last name and do your best. We will award prizes to the top ten teammates on the leaderboard.");
   $('#title').hide().fadeIn("slow");
   $('#introParagraph').hide().fadeIn("slow");
   $('#nameForm').hide().fadeIn("slow");

@@ -1,4 +1,4 @@
-# Node.js Dynamic Quiz Application
+# Novak - Node.js Dynamic Quiz Application
 * Options to:
 	* Take an existing quiz
 	* Create a new quiz
